@@ -1,5 +1,6 @@
 ﻿#Author: Peter Gu (petergu@microsoft.com)
-#Version: 1.0
+#Version: 2.0
+#Updates: Replaced substring(indexof()) with replace()
 
 Param([Parameter(Mandatory=$True,Position=1)][String]$URL)
 #Original format: https://icm.ad.msft.net/portal/publicpostmortem/Details/450
